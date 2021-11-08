@@ -1,0 +1,63 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U modular_types%b	modular_types.adb	ab863ec3 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.modular_aux%s  a-timoau.adb	a-timoau.ali
+Z ada.text_io.modular_io%s
+W system%s		system.ads		system.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-timoau.ads		20200312110721 01c06610 ada.text_io.modular_aux%s
+D a-timoio.ads		20200312110721 d32407b9 ada.text_io.modular_io%s
+D a-timoio.adb		20200312110721 de0ea1c6 ada.text_io.modular_io%b
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D modular_types.adb	20210917164418 239b8d99 modular_types%b
+D system.ads		20200312110721 4635ec04 system%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 2r5 8r21
+X 6 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 2r9 8r25
+242U14*Put 13|13s9 16s9
+263U14*Put_Line 13|15s9 18s9 22s17
+X 8 a-timoio.ads
+46k21*Modular_IO 85e27 13|8r33
+66U14 Put 13|14s26[7] 17s26[7] 21s34[7]
+X 13 modular_types.adb
+4U11*Modular_Types 4b11 24l5 24t18
+6M14 Counter_Value 8r45 10r12 14r30 17r30
+7K17 Counter_Value_IO[8|46] 14r9 17r9 21r17
+10m4 Count{6M14} 20m17 20r26 21r38
+19i13 I{integer}
+
